@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<Context>(options =>
     options.UseSqlServer(@"Server=HUGO\SQLEXPRESS01;
-Database=Schoo2025lDb;Integrated Security=true; 
+Database=PruebaDB;Integrated Security=true; 
 trustservercertificate=True;"));
 
 

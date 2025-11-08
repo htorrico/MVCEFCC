@@ -1,12 +1,16 @@
-﻿namespace MVCEFCC.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MVCEFCC.Models
 {
     public class Person
-    {
-        public int PersonId { get; set; }
+    {                
+        public int PersonId { get; set; }        
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
         public string Phone { get; set; }
+
+        public bool Active { get; set; }
 
     }
 }
